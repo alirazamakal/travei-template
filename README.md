@@ -1,1 +1,1 @@
-# travei-template
+# travel-template
