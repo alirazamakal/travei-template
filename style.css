@@ -17,8 +17,7 @@ body {
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
-    url(images/banner.png);
+    background-image: linear-gradient(rgba(255, 83, 97, 0.1),rgba(0,0,0,0.5)), url(images/banner.png);
     background-position: center;
     background-size: cover;
 }
@@ -144,7 +143,7 @@ nav {
 /* -------Call to action------- */
 .cta {
     margin: 80px 0;
-    background-image: linear-gradient(to right, #3f2321, transparent),
+    background-image: linear-gradient(to right, #3f2321, rgba(255, 83, 97, .1)),
     url(images/banner-2.png);
     background-size: cover;
     background-position: center;
@@ -223,7 +222,7 @@ nav {
 }
 .about-msg p {
     color: #999;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 26px;
 }
@@ -236,7 +235,7 @@ nav {
 .footer a {
     text-decoration: none;
     color: #999;
-    font-size: 22px;
+    font-size: 18px;
     margin: 0 10px;
 }
 .footer hr {
@@ -348,6 +347,8 @@ nav.navbar-white .fa-bars {
     border: 1px solid #999;
     padding: 20px 30px;
     margin-top: 30px;
+    top: 10px;
+    position: sticky;
 }
 .sidebar h2 {
     font-weight: 500;
